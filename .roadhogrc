@@ -1,0 +1,36 @@
+{
+    "entry": "src/index.js",
+    "publicPath": "/sales/",
+    "proxy": {
+        "/api": {
+            "target": "https://api-sandbox.unifiedcloud.lenovo.com",
+            "changeOrigin": true,
+            "pathRewrite": { "^/api" : "" }
+        },
+        "/mopenapi": {
+            "target": "http://10.116.16.81:8081",
+            "changeOrigin": true,
+            "pathRewrite": { "^/mopenapi" : "" }
+        },
+        "/ponapi": {
+            "target": "http://10.100.75.100:8082",
+            "changeOrigin": true,
+            "pathRewrite": { "^/ponapi" : "" }
+        }
+  },
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": "css" }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "style": "css" }]
+      ]
+    }
+  }
+}

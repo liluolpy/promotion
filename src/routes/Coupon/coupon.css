@@ -1,0 +1,29 @@
+.form{padding: 24px; margin-bottom: 20px; background-color: #fbfbfb; border-radius: 6px;}
+.tips{margin: 10px 0;}
+.blue{color:#108ee9;}
+.checkbox{margin: 5px 0;}
+.operations{margin-bottom: 10px}
+.operations span{padding: 0 2px;}
+
+.success{color: #00A854;}
+.error{color: #FE5500;}
+
+:global(.slctOperat){
+    width: 120px;
+
+}
+:global(.slctOperat .ant-select-selection--single){
+    background-color: #108ee9; color: #fff;
+}
+:global(.ant-calendar-picker){
+    display: block;
+}
+
+/*sales*/
+.salesDetail{color: #666;}
+.salesDetail h5{margin-bottom: 10px; font-size: 16px; color: #333;}
+.rows{margin-bottom: 20px;}
+.lineStyle{margin: 10px 0;}
+.lineStyle span{color: #989898; display: inline-block; width: 80px;}
+.show{display: block;}
+.hide{display: none;}

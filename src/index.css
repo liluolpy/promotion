@@ -1,0 +1,59 @@
+:global(.ant-table table){font-size:12px;}
+
+/*****************后端框架样式******************/
+html, body, :global(#root), :global(.wrapper) { height: 100%; overflow: hidden; }
+@font-face {
+  font-family: 'iconfont';  /* project id 447182 */
+  src: url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.eot');
+  src: url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.woff') format('woff'),
+  url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_447182_ijkj8otqytgo80k9.svg#iconfont') format('svg');
+}
+
+/*权限模块用到的字体*/
+:global(.nsfont){font-size: 14px;}
+
+:global(.nsicon-menu:before) {margin-right:5px !important;}
+:global(.nsicon-button:before) {margin-right:5px !important;}
+/*****************后端框架样式******************/
+:global(.cModal .ant-radio-button-wrapper){margin:0px 10px 10px 0px;width:35px;height:35px;border-radius:5px;border:0px;}
+:global(.cModal .ant-radio-button-wrapper:first-child),:global(.cModal .ant-radio-button-wrapper:last-child){border-radius:5px;border:0px;}
+:global(.cModal .ant-radio-button-wrapper-checked){box-shadow:none!important;}
+:global(.cModal .ant-radio-button-wrapper::before){width:0px!important;content: "\E632"!important;font-family: anticon!important;position: absolute!important;color: #fff!important;opacity:0;top: 3px!important;font-size: 22px;left: 7px!important;}
+:global(.cModal .ant-radio-button-wrapper-checked::before){opacity:1}
+
+:global(.ant-select-lg .ant-select-selection--multiple){max-height:100px;overflow-y:auto;}
+
+:global(.circle){display: inline-block;width:5px;height: 5px;border-radius: 2.5px;margin-right: 2px;  position: relative; top: -1px;}
+:global(.circle.blue){background:#108de9}
+:global(.circle.red){background:#fe5500}
+:global(.circle.green){background:#2eba07}
+:global(.circle.grey){background:#999999}
+
+:global(.line){width:1px;height: 12px;display: inline-block;margin: 0px 3px;background:#efefef; position: relative;top: 2px;}
+
+:global(.wd_33>div),:global(.w_33){width: 33.33%;}
+:global(.wd_50>div){width: 50%;}
+:global(.wd_100>div){width: 100%;}
+:global(.w_66){width: 66.66%;}
+
+:global(.w250){width: 250px;}
+
+:global(.pt0){padding-top: 0px !important;}
+:global(.mt2){margin-top: 2px;}
+:global(.mt20){margin-top: 20px;}
+:global(.mt30){margin-top: 30px;}
+:global(.mb20){margin-bottom: 20px;}
+:global(.mb40){margin-bottom: 40px;}
+:global(.ml10){margin-left: 10px;}
+
+:global(.pl0){padding-left: 0px !important;}
+:global(.pr0){padding-right: 0px !important;}
+:global(.pt20){padding-top: 20px !important;}
+
+:global(.none){display: none !important;}
+:global(.fleft){float: left !important;}
+:global(.ant-layout-has-sider){
+  min-height: 0 !important;
+} 
